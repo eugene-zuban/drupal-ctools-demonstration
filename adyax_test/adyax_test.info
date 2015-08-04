@@ -1,0 +1,8 @@
+name = Adyax Test CTools Plugin
+description = CTools content type and style plugins. Show panel with 3 random published nodes in 'teaser' view mode
+core = 7.x
+package = Adyax Test Project
+dependencies[] = ctools
+dependencies[] = panels
+dependencies[] = page_manager
+files[] = default.module

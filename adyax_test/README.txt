@@ -1,0 +1,1 @@
+This module create CTools content Plugin for panels to show 3 random published nodes created on the site in 'teaser' view mode. Also module create a Panels Style plugin (both for pane and region) that will show content in a border with a width specified throught style settings.

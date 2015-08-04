@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Adyax test feature feature.
+ */
+
+include_once 'adyax_test_feature.features.inc';
