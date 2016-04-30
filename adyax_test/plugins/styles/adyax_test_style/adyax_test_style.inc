@@ -3,15 +3,14 @@
 /**
  * @file
  * "Adyax test style" is regions and panes style CTools plugin
- *
  */
 
 /**
  * Describe plugin
  */
 $plugin = array(
-  'title' => t('Content in a border'),
-  'description' => t('Set border width'),
+  'title' => t('Content with a border'),
+  'description' => t('Set borders width'),
   'render region' => 'adyax_test_style_render_region',
   'render pane' => 'adyax_test_style_render_pane',
   'settings form' => 'adyax_test_style_settings_form',
@@ -43,7 +42,7 @@ function theme_adyax_test_style_render_region($vars) {
   }
 
   if (empty($content)) {
-    return;
+    return '';
   }
 
   $settings = $vars['settings'];

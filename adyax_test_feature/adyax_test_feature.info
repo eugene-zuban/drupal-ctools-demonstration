@@ -1,5 +1,5 @@
 name = Adyax test feature
-description = Demonstrate task results for CTools content plugin and anels Style plugin
+description = Demonstration task results for CTools content plugin and panels Style plugin
 core = 7.x
 package = Adyax tests
 version = 7.x-1.1
